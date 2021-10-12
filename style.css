@@ -7,13 +7,23 @@ body {
     padding: 0 10px;
 }
 
+.content {
+    display: flex;
+}
+
+.content>p:first-child {
+    border-right: 1px solid #000;
+}
+
 h1 {
     text-align: center;
+    line-height: 0px;
 }
 
 p {
     text-indent: 30px;
     text-align: justify;
+    padding: 0 10px;
 }
 
 strong {
